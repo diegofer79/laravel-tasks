@@ -5,8 +5,8 @@ name: Build and deploy PHP app to Azure Web App - MicroSitioEmpleados
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - '**'
   workflow_dispatch:
 
 jobs:
